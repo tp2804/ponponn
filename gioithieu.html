@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gioithieu.css">
+</head>
+<body>
+    <h1>Giới Thiệu Về Cửa Hàng</h1>
+<h2>PON PON MUSIC là TRUNG TÂM BÁN LẺ NHẠC CỤ với đầy đủ, đa dạng các thương hiệu:</h2>
+
+<h2>Đàn Piano:</h2>
+<p>Chúng tôi có Yamaha (Nhật Bản), Roland (Nhật Bản), Kurtzman (Anh Quốc), Dynatone (Hàn Quốc), Casio (Nhật Bản).</p>
+
+<h2>Đàn Guitar:</h2>
+<p>Chúng tôi có Martin (Mỹ), Taylor (Mỹ), Cordoba (Tây Ban Nha), Epiphone (Mỹ), Ibanez (Nhật Bản), Cort (Hàn Quốc), Takamine, Yamaha (Nhật Bản)...</p>
+
+<h2>Đàn Organ:</h2>
+<p>Chúng tôi có: Yamaha, Casio, Roland (Nhật Bản), Kurtzman (Anh Quốc)</p>
+
+<h2>Đàn Ukulele:</h2>
+<p>Chúng tôi có Ukulele Kala (Mỹ).</p>
+<h2>Kèn:</h2>
+<p>Chúng tôi có Kèn Saxophone,  Flute,Trumpet, Clarinet của Yamaha (Nhật Bản), Victoria (Mỹ), Condor (Đức)...</p>
+
+<h2>Trống:</h2>
+<p>Chúng tôi có Tama (Nhật Bản), Pearl (Mỹ), Trống Điện tử Yamaha và Roland (Nhật bản).</p>
+Phụ kiện:
+Đa dạng các thương hiệu đến từ Mỹ, Nhật như D'Addario, Elixir, Keyser, Gibson, Ernie Ball, Hosa, Musedo, Ibanez, Martin....
+
+<h2 class="member-title">Thành Viên Nhóm</h2>
+
+<div class="member-container">
+  <div class="member-card">
+    <img src="IMAGES/ln.jpg" alt="Thành viên 1">
+    <h3>Lầu Nguyễn Phương Ngân</h3>
+    <p>MSSV: 24NT01027</p>
+    <p>Lớp: 24NTH01</p>
+    <p>Trường: Trung Cấp Công Nghiệp Bình Dương</p>
+  </div>
+
+  <div class="member-card">
+    <img src="IMAGES/thuphuong.jpg" alt="Thành viên 2">
+    <h3>Bùi Thu Phương</h3>
+    <p>MSSV: 24NT01038</p>
+    <p>Lớp: 24NTH01</p>
+    <p>Trường: Trung Cấp Công Nghiệp Bình Dương</p>
+  </div>
+
+  <div class="member-card">
+    <img src="IMAGES/hoangoanh.jpg" alt="Thành viên 3">
+    <h3>Từ Hoàng Oanh</h3>
+    <p>MSSV: 24NT01037</p>
+    <p>Lớp: 24NTH01</p>
+    <p>Trường: Trung Cấp Công Nghiệp Bình Dương</p>
+  </div>
+</div>
+
+<div id="footer"></div>
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("footer").innerHTML = html;
+  });
+</script>
+</body>
+</html>
