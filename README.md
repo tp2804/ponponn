@@ -72,3 +72,6 @@ Dự án giúp rèn luyện kỹ năng thiết kế giao diện web và xử lý
 * 24NT01027 - Lầu Nguyễn Phương Ngân 
 
 **Môn học:** Thiết kế Web
+**[Website ]**(https://bdi.edu.vn/)
+**[link youtube sản phẩm]**(https://youtu.be/Uf6nqFmXk44)
+
